@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<title>Fototeca SeaProcyon</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="img/seaprocyon-perfil-2.ico">
+        <link rel="stylesheet" href="css/inicio.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var fecha = new Date();
+        var ano = fecha.getFullYear();
+        var mes = fecha.getMonth() + 1;
+        var dia = fecha.getDate();
+        var fechaActual = dia + '/' + mes + '/' + ano;
+        var elementoFecha = document.getElementById("fecha-actualizacion");
+        elementoFecha.innerHTML = 'Última actualización: ' + fechaActual;
+      });
+    </script>
+</head>
+
+<body>
+	<!-- logo-->
+	<div class="logo">
+	<img src="img/foto.svg">
+	</div>
+	
+	<!-- Barra -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Inicio</a>
+  <a href="trabajando.html">Blog</a>
+  <a href="trabajando.html">Contacto</a>
+  <div class="dropdown">
+    <button class="dropbtn">Fototeca
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="trabajando.html">Aquaworld</a>
+      <a href="trabajando.html">Armada De Mexico (Secretaria de Marina)</a>
+      <a href="trabajando.html">Asterix</a>
+	  <a href="trabajando.html">Barcos Caribe</a>
+	  <a href="trabajando.html">Dolphin Discovery / Garrafón</a>
+		<a href="trabajando.html">Especiales</a>
+		<a href="trabajando.html">FORNATUR</a>
+	  <a href="trabajando.html">Jetway</a>
+		<a href="trabajando.html">Marinsa</a>
+		<a href="trabajando.html">Martima Isla Mujeres</a>
+		<a href="trabajando.html">Mexico Waterjet</a>
+		<a href="trabajando.html">Naveganto</a>
+		<a href="trabajando.html">Naviera Isleña (Tintorera)</a>
+		<a href="trabajando.html">Transcaribe</a>
+		<a href="tmm.html">Transportes Maritimos Magaña</a>
+		<a href="Ultramar.html">Ultramar</a>
+		<a href="trabajando.html">Ultramar Carga (Ultracarga)</a>
+		<a href="Xcaret.html">Xcaret Xailing</a>
+    </div>
+  </div>
+  <a href="trabajando.html">Sobre el proyecto</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+  
+	<!-- principal -->
+<section>
+	<h1>¡Bienvenidos a SeaProcyon!</h1>
+</section>
+<section>
+  <p>La fototeca tiene la intencion de rescatar y mantener la historia naval de <b>Isla Mujeres, Quintana Roo</b><br> y otras partes de la <b>Pensinsula De Yucatán</b></p>
+</section>
+	
+	<section>
+	<h1 class="novedades">ACTUALIZACIONES DE LA PÁGINA:</h1>
+	<p class="avisos">04 MARZO 2024: <b>Feliz 507 Aniversario del Descubrimiento de Isla Mujeres</b>, se lanzo la pagina Seaprocyon en <b>SeaProcyon.github.io</b> pero debido a un error de carga no se subio correctamente, tambien se crea la página de <b>Facebook</b>.</p>
+	<p class="avisos">Actualizaciones de la pagina Seaprocyon en <b>SeaProcyon.github.io</b> se creo las primera páginas de la Fototeca de las navieras: <b><a href="tmm.html">Transportes Maritimos Magaña</a>,<a href="Ultramar.html">Ultramar</a>y<a href="Xcaret.html">Xcaret Xailing</a> </b>.</p>
+	<h1 class="novedades">IMPORTANTE: LA PAGINA SE ENCUENTRA ALOJADA DE FORMA GRATUITA EN Github <br>Esta pagina puede tener problemas como subida o capacidad en datos, la Página no cuenta con un servidor propio debido a los altos precios y puede ser que el futuro se tenga uno propio. En dado caso la pagina de Facebook seria un respaldo.</h1>
+	</section>
+	
+	<!-- footer -->
+<footer class="footer">
+	<p class="luna">Pagina creada por SeaProcyon en Isla Mujeres, Quintana Roo</p>
+	<img class="footer-logo" src="img/seaprocyon alternativo color.svg" alt="Logo de la empresa">
+	<p class= "actualizacion" id="fecha-actualizacion"></p>
+	<p class="version">Version 1.0 (Pagina en Proceso) by <a href="url"> Procyon </a></p>
+	<p class="importante">" IMPORTANTE: Esta Pagina no cuenta con apoyo de algun gobierno local ni de navieras<br>
+	todas las fotos son tomadas por la pagina o encontro en fuentes externas" </p>
+      <div class="footer-links">
+        <a href="#">Política de privacidad</a>
+        <a href="#">Términos y condiciones</a>
+      </div>
+    </footer>
+	
+</body>
+</html>
